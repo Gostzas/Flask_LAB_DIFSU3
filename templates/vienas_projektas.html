@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h4>{{ project.pavadinimas }}</h4>
+<p>ID: {{ project.id }}</p>
+<p>Kaina: {{ project.kaina }}</p>
+<p>Kaina su PVM: {{ project.kaina_su_pvm }}</p>
+<p>Data: {{ project.ivedimo_data }}</p>
+{% endblock %}
